@@ -193,6 +193,7 @@ h6,
         background: #FFFFFF;
     }
 
+
     .navbar-dark .navbar-nav .nav-link::before {
         position: absolute;
         content: "";
@@ -240,6 +241,19 @@ h6,
         font-size: 30px;
         font-weight: 600 !important;
     }
+
+    #logoHeader {
+        max-width: 190px;
+        max-height: 40px !important;
+        ;
+    }
+
+    #logoFooter {
+        max-width: 240px;
+        max-height: 70px !important;
+    }
+
+
 }
 
 .carousel-control-prev,
@@ -527,4 +541,19 @@ h6,
     .footer-about {
         margin-bottom: -75px;
     }
+}
+
+
+#logoFooter {
+    width: 300px;
+    height: 70px;
+
+}
+
+#logoHeader {
+    max-width: 300px;
+    max-height: 70px;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+
 }
