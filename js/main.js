@@ -18,6 +18,7 @@
 
     // Sticky Navbar
     $(window).scroll(function () {
+
         if ($(this).scrollTop() > 45) {
             $('.navbar').addClass('sticky-top shadow-sm');
             //mostrar logo blanco
@@ -29,6 +30,11 @@
             $('.logoheader').attr('src', 'img/digicon.png');
 
         }
+        var anchoVentana = window.innerWidth;
+        if (anchoVentana <= 576) {
+            $('.logoheader').attr('src', 'img/digicon2.png');
+        };
+
     });
 
     // Dropdown on mouse hover
