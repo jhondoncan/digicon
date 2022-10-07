@@ -243,7 +243,7 @@ h6,
     }
 
     #logoHeader {
-        content: url(/img/digicon2.png);
+        content: url(../img/digicon2.png);
         max-width: 190px;
         max-height: 40px !important;
 
