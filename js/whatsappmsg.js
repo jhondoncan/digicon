@@ -51,10 +51,6 @@ function fibraOpSantaRuTreinta() {
 
 /* Radio enlace Santa Maria */
 
-function radioEnlaSantaSeis() {
-    msg = "¡Hola! Deseo información acerca del plan *6 Mbs Radio Enlace Santa María*";
-    window.open(url + msg, '_blank');
-}
 
 function radioEnlaSantaOcho() {
     msg = "¡Hola! Deseo información acerca del plan *8 Mbs Radio Enlace Santa María*";
@@ -63,6 +59,12 @@ function radioEnlaSantaOcho() {
 
 function radioEnlaSantaDiez() {
     msg = "¡Hola! Deseo información acerca del plan *10 Mbs Radio Enlace Santa María*";
+    window.open(url + msg, '_blank');
+}
+
+
+function radioEnlaSantaDoce() {
+    msg = "¡Hola! Deseo información acerca del plan *12 Mbs Radio Enlace Santa María*";
     window.open(url + msg, '_blank');
 }
 
@@ -132,3 +134,4 @@ function radioEnlaSaldanaDiez() {
     msg = "¡Hola! Deseo información acerca del plan *10 Mbs Radio Enlace Saldana*";
     window.open(url + msg, '_blank');
 }
+
