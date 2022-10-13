@@ -135,3 +135,9 @@ function radioEnlaSaldanaDiez() {
     window.open(url + msg, '_blank');
 }
 
+
+// Contacto general
+function contactanos() {
+    msg = "¡Hola! Deseo información acerca de sus servicios";
+    window.open(url + msg, '_blank');
+}
