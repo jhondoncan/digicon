@@ -141,3 +141,9 @@ function contactanos() {
     msg = "¡Hola! Deseo información acerca de sus servicios";
     window.open(url + msg, '_blank');
 }
+
+
+// Abrir pagina de facebook
+function facebook() {
+    window.open('https://www.facebook.com/solucionesdigicon', '_blank');
+}
