@@ -62,6 +62,11 @@ function radioEnlaSantaDoce() {
     window.open(url + msg, '_blank');
 }
 
+function radioEnlaSantaQuince() {
+    msg += "*15 Mbs Radio Enlace Santa María*";
+    window.open(url + msg, '_blank');
+}
+
 
 /* ------------------------ SALDAÑA -------------------- */
 
