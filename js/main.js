@@ -136,3 +136,51 @@
 
 })(jQuery);
 
+function resolucion() {
+    Swal.fire({
+        title: '<strong>Resolución 5111 de 2017</strong>',
+        width: '1000px',
+        html:
+            '<embed src="../docs/RESOLUCION_5111_DE_2017.pdf" type="application/pdf" width="100%" height="450px" />',
+        showCloseButton: false,
+        showCancelButton: false,
+        focusConfirm: false,
+        confirmButtonText:
+            'Aceptar',
+        confirmButtonColor: '#1574ff',
+    })
+
+}
+
+
+function leyOne() {
+    Swal.fire({
+        title: '<strong>Ley 679 de 2001</strong>',
+        width: '1000px',
+        html:
+            '<embed src="../docs/Ley_679_de_2001.pdf" type="application/pdf" width="100%" height="450px" />',
+        showCloseButton: false,
+        showCancelButton: false,
+        focusConfirm: false,
+        confirmButtonText:
+            'Aceptar',
+        confirmButtonColor: '#1574ff',
+    })
+
+}
+
+
+function leyTwo() {
+    Swal.fire({
+        title: '<strong>Ley 1341</strong>',
+        width: '1000px',
+        html:
+            '<embed src="../docs/Ley_1341.pdf" type="application/pdf" width="100%" height="450px" />',
+        showCloseButton: false,
+        showCancelButton: false,
+        focusConfirm: false,
+        confirmButtonText: 'Aceptar',
+        confirmButtonColor: '#1574ff',
+    })
+}
+
